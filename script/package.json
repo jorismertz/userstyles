@@ -1,0 +1,20 @@
+{
+  "name": "script",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "get-variables": "bun run src/get-variables.ts",
+    "replace-names": "bun run src/replace-names.ts"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.2.0",
+    "@rose-pine/palette": "^4.0.1",
+    "prettier": "^3.0.3"
+  }
+}
