@@ -1,0 +1,8 @@
+{
+  "name": "scripts",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "usercss-meta": "^0.12.0"
+  }
+}
